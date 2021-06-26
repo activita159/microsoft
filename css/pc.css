@@ -1,0 +1,531 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+header{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.nav{
+    max-width: 100%;
+    height: 54px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;  
+}
+.burger{
+    display: none;
+}
+.logo{
+    width: 137px;
+    height: 54px;
+    position: relative;
+}
+.logo img{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.topM{
+    display:flex;
+}
+.phone-all{
+    display: none;
+}
+.menu-link{
+    height: 100%;
+    padding: 0 8px;
+    margin: 0 7px;
+    font-size: 13px;
+    line-height: 54px;
+}
+#l1{
+    margin-left:7px;
+}
+.topR{      
+    height: 54px;
+    display:flex;
+    align-items: center;          
+    margin-left: auto;
+    font-size: 13px;
+}
+.btn-logo{   
+    position: relative;    
+}
+.btn-logo-all{
+    background-color: whitesmoke;
+    width: 1230px;
+    height: 392px;
+    display: flex;
+    position: absolute;
+    top: 35px;
+    left: -910px;
+    flex-wrap: wrap;
+    z-index: 1;
+    display: none;    
+}
+.btn-logo:hover .btn-logo-all{
+    display: flex;
+}
+.btn-logo .btn-logo-all ul{
+    width: 195px;
+    padding: 0;
+    margin: 0;
+}
+.bb{
+    margin-left: 48px;
+}
+li{
+    list-style-type: none;
+    padding: 16px 0px 8px 24px;
+}
+
+.map{
+    width: 100%;
+    height: 38px;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin-top: auto;
+}
+
+/* ---------------------------------------------------- */
+
+main{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.containerA{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.containerA .left{
+    height: 139px;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.containerA picture img{
+    width: 100%;    
+}
+.containerA .left .A{
+    font-size: 34px;
+}
+.containerA .left .B{
+    font-size: 15px;
+}
+.containerA .left .C{
+    width: 123px;
+    height: 39px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 39px;
+    font-weight: 900;
+    margin-top: 13px;
+}
+.item{
+    width: 100%;
+    padding-top: 48px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+.item-{
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.item- img{
+    width: 40px;
+    height: 40px;
+}
+.item .item- .word{
+    text-align: center;
+    font-weight: 600;
+}
+.products{
+    width: 100%;
+    margin: 30px auto 0px;
+    display: flex;
+    justify-content: center;  
+    margin-top: 60px;  
+}
+.products .product-{
+    width: 100%;
+}
+.products .product- img{
+    width: calc(100% - 20px);
+}
+.products .product- .big_word{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 37px;
+}
+.products .product- .word{
+    width: calc(100% - 20px);
+    font-size: 15px;
+    text-align: left;
+}  
+.containerB{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 80px;
+}
+.containerB .left{
+    height: 139px;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.containerB img{
+    width: 100%;    
+}
+.containerB .left .A{
+    font-size: 34px;
+}
+.containerB .left .B{
+    font-size: 15px;
+}
+.containerB .left .C{
+    width: 123px;
+    height: 39px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 39px;
+    font-weight: 900;
+    margin-top: 13px;
+}
+.heading .word{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.productsB{
+    width: 100%;
+    margin: 30px auto 0px;
+    display: flex;
+    justify-content: center;    
+}
+.productsB .product-{
+    width: 100%;
+}
+.productsB .product- img{
+    width: calc(100% - 20px);
+}
+.productsB .product- .big_word{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 37px;
+}
+.productsB .product- .word{
+    width: calc(100% - 20px);
+    font-size: 15px;
+    text-align: left;
+}
+.footer-nav{
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    margin-top: 180px;
+    padding-bottom: 25px;
+}
+.footer-nav .all{
+    display: flex;
+    padding: 0 8%;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+    font-size: 11px; 
+    margin-right: 30px;
+}
+.footer-nav .all li{
+    margin: 0;
+    padding: 0;
+    padding: 12px 0 8px
+}
+.footer-nav .all ul :first-child{
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-btm {
+    margin: 0 auto;
+    width: calc(100% - 300px);
+}
+.footer-btm .right{
+    width: 100%;
+    margin-top: 25px;
+}
+.footer-btm .right ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+.footer-btm .right ul li{
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    margin-left: 30px;
+    margin-top: 10px;    
+}
+@media(max-width: 1400px){
+    .menu-link{
+        padding: 0 5px;
+        margin: 0 5px;
+    }
+
+    .bb{
+        display: none;
+    }
+    .topR{
+        justify-content: flex-end;
+    }
+    .search-img, .shopping-img, .login-img{
+        margin-left: 10px;
+    }
+    .btn-logo{
+        margin-right: 35px;
+    }
+}
+
+/* -------------------------------------- */
+@media(max-width: 1229px){
+    .btn-logo-all{
+        width: 1025px;
+        height: 660px;
+        top: 35px;
+        left: -840px;           
+    }
+} 
+@media(max-width: 1125px){
+    .btn-logo-all{
+        left: -790px;           
+    }
+}    
+@media(max-width: 1083px){
+    header{
+        max-width: 95%;
+    }
+    .btn-logo-all{
+        width: 1025px;
+        height: 660px;
+        top: 35px;
+        left: -800px;           
+    } 
+    main{
+        max-width: 100%; 
+    }
+    .containerA .left .A{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .containerB .left{
+        width: 330px;
+    }
+    .containerB .left .A{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .products{
+        width: 90%;
+        display: unset;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 50px;
+    }    
+    .products .product-{
+        padding: unset;
+        margin: unset;
+        width: calc(50% - 5px);
+        margin-bottom: 90px;
+    }
+    .products .A, .products .C{
+        float: left;
+    }
+    .products .B, .products .D{
+        float: right;
+    }
+    .heading{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    .productsB{
+        width: 90%;
+        display: unset;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .productsB .product-{
+        padding: unset;
+        margin: unset;
+        width: calc(50% - 5px);
+        margin-bottom: 90px;
+    }
+    .productsB .A, .products .C{
+        float: left;
+    }
+    .productsB .B, .products .D{
+        float: right;
+    }
+
+   .footer-nav{
+       padding: 0;
+       margin: 0;
+       height: 624px;
+   } 
+   .footer-nav .all{
+        display: unset;
+        padding: 0;   
+        margin: 0;
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .footer-nav .all ul{
+        margin: 0;
+        width: 33.3%;
+        padding: 25px 0;
+    }
+    .footer-nav .all li{
+        margin: 0;
+        padding: 8px;
+    }
+    .footer-btm {
+        width: 100%;
+        margin: 0;
+        float: right;
+    }
+    .footer-btm .right{
+        margin: 0;       
+    }
+    .footer-btm .right ul li{
+        padding: 0 24px 0 0;
+        margin: 0;
+    }
+}
+@media(max-width: 850px){
+    header{
+        max-width: 100%;
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav .logo{
+        padding: 0;
+        margin: 0;
+        justify-self: center;
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }   
+    .topM{
+        display: none;
+    }
+    .topR{
+        margin: 0 auto;
+        width: 97%;
+        display: unset;
+        justify-content: unset;
+    }
+    .burger,.topR .search-img{
+        display: unset;
+        float: left;
+        margin-top: 20px;
+    }
+    .topR .search-img{
+        margin-left: 20px;
+    }
+    .topR .login-img, .topR .shopping-img{
+        display: unset;
+        float: right; 
+
+    }
+    .topR .shopping-img{
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .topR .login-img{
+        margin-top: 10px;
+    }
+    .btn-logo{
+        display: none;
+        position: unset;
+        margin: unset;
+    }
+    .phone-all{
+        position: absolute;
+        top: 54px;
+        left: 0px;
+        display: unset;
+        background-color: rgb(240, 240, 240);
+        width: 100%;
+        z-index: 99;
+        display: none;
+    }
+    .phone-all ul{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    .phone-all ul li{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin: 1px;
+        padding: 14px 0 15px 15px;
+        font-size: 15px;
+        border-top: 1px solid rgb(201, 201, 201);
+    }
+    .phone-all ul:last-child{
+        border-bottom: 1px solid;
+    }
+    .burger:hover ~.phone-all{
+        display: block;
+    }
+}
+@media(max-width: 770px){
+    .containerA .left, .containerB .left{
+        width: unset;
+        background-color: rgb(232, 232, 232);
+        position: unset;
+        transform: unset;
+        height: 320px;
+        justify-content:center;
+        align-items: center;
+        margin-top: -4px;
+    }
+
+    .nav{
+        display: block;
+    }
+    
+
+
+}
