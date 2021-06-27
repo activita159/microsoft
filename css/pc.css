@@ -529,3 +529,87 @@ main{
 
 
 }
+
+@media(max-width:350px){
+    main .containerA .left{
+        height: unset;
+    }
+    main .item{
+        display: block;
+        padding: 48px 16px;
+        margin:unset;
+    }
+    main .item .item- {
+        flex-direction: unset;
+        width: unset;
+        padding: 12px 6px;
+        justify-content: flex-start;
+    }
+    main .item .A .word,
+    main .item .B .word,
+    main .item .C .word{
+        font-size: 15px;
+    }
+    main .item .item- img{
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;       
+    }
+    main .products{
+        width: 95%;
+        margin: 0 auto;
+    }
+    main .products .product-{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 12px 0 12px;
+        margin: 0;
+    }
+    main .products .product- .word{
+        text-align: center;
+    }
+
+    main .containerB .left{
+        height: unset;
+    }
+
+    main .productsB{
+        width: 95%;
+        margin: 0 auto;
+    }
+    main .productsB .product-{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 12px 0 12px;
+        margin: 0;
+    }
+    main .productsB .product- .word{
+        text-align: center;
+    }
+
+    footer nav .footer-nav{
+        display: flex;
+        height: unset;
+        flex-wrap: wrap;
+    }
+    footer nav .footer-nav .all ul{
+        width: 100%;
+    }
+
+    footer nav .footer-nav .footer-btm {
+        width: 95%;
+        margin: 0 auto;
+    }
+    footer nav .footer-nav .footer-btm ul{
+        padding: 30px 24px 16px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    footer nav .footer-nav .footer-btm ul li{
+        padding:6px 10px 0px 0px;
+    }
+}
